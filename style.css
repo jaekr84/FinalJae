@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+.box h1 {
+  font-size: 400px;
+}
+.box h2 {
+  font-size: 280px;
+}
+.box h3 {
+  font-size: 95px;
+}/*# sourceMappingURL=style.css.map */
