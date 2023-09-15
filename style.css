@@ -1,1 +1,42 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #313940;
+}
+.navbar a {
+  color: #BFB3A8;
+}
+
+.jae {
+  color: #03243F;
+}
+
+.sector-1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #313940;
+  color: #BFB3A8;
+}
+.sector-1 h1 {
+  font-size: 400px;
+  line-height: 0.7;
+  padding-top: 80px;
+}
+.sector-1 h2 {
+  font-size: 270px;
+  line-height: 0.7;
+}
+.sector-1 h3 {
+  font-size: 90px;
+  line-height: 0.7;
+}
+
+footer {
+  background-color: #313940;
+  height: 50px;
+  color: #BFB3A8;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
