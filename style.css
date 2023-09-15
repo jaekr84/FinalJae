@@ -9,6 +9,11 @@
 .navbar a {
   color: #BFB3A8;
 }
+.navbar .navbar-toggler {
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+}
 
 .jae {
   color: #03243F;
@@ -21,30 +26,38 @@
   color: #BFB3A8;
 }
 .sector-1 h1 {
-  font-size: 400px;
-  line-height: 0.7;
+  font-size: 20rem;
+  line-height: 0.8;
   padding-top: 80px;
+  width: 100%;
 }
 .sector-1 h2 {
   font-size: 270px;
-  line-height: 0.7;
+  line-height: 0.8;
 }
 .sector-1 h3 {
   font-size: 90px;
-  line-height: 0.7;
+  line-height: 0.8;
+  background-color: #313940;
+}
+.sector-1 .slogan {
+  font-size: 20px;
+  width: 700px;
+  justify-content: center;
+}
+.sector-1 .calltext {
+  font-size: 30px;
 }
 
 .redes {
-  background-color: #313940;
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 25%;
-  left: 3%;
+  top: 20%;
   font-size: 40px;
 }
 .redes a {
-  color: #BFB3A8;
+  color: #8C6F56;
 }
 
 footer {
@@ -82,4 +95,32 @@ footer a {
 .copyright {
   text-align: center;
   color: #BFB3A8;
+}
+
+.box0 {
+  background-color: #313940;
+}
+
+.box1 {
+  background-color: #313940;
+  padding: 50px;
+}
+.box1 .item {
+  height: 200px;
+  border: 1px solid #03243F;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #03243F;
+}
+.box1 .item1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box1 .item1 img {
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .redes {
+    top: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */

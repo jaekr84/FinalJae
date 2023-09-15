@@ -13,6 +13,10 @@ $color5: #BFB3A8
     background-color: $color3
     a
         color: $color5
+    .navbar-toggler
+        border: none
+        text-decoration: none    
+        font-size: 30px
 
 .jae
     color: $color2
@@ -23,32 +27,41 @@ $color5: #BFB3A8
     background-color: $color3
     color: $color5
     h1
-        font-size: 400px
-        line-height: 0.7
+        font-size: 20rem
+        line-height: 0.8
         padding-top: 80px
+        width: 100%
     h2
         font-size: 270px
-        line-height: 0.7
+        line-height: 0.8
     h3
         font-size: 90px
-        line-height: 0.7
+        line-height: 0.8
+        background-color: $color3
+    .slogan
+        p
+        font-size: 20px
+        width: 700px
+        justify-content: center
+    .calltext
+        font-size: 30px
 
+    
 .redes
-    background-color: $color3
     position: absolute
     display: flex
     flex-direction: column
-    top: 25%
-    left: 3%
+    top: 20%
     font-size: 40px
     a
-        color: $color5
+        color: $color4
+
 
 footer
     background-color: $color3
     color: $color5
     a
-        color: $color5
+        color: $color5  
 
 .footer-logo
     font-family: 'Bebas Neue', sans-serif
@@ -73,3 +86,30 @@ footer
     text-align: center
     color: $color5
 // index finaliza
+// cv inicia
+.box0
+    background-color: $color3
+.box1
+    background-color: $color3
+    padding: 50px
+    .item
+        height: 200px
+        border: 1px solid $color2
+        border-radius: 15px
+        box-shadow: 3px 3px 5px $color2
+    .item1
+        object-fit: cover
+        img
+            width: 400px
+        
+            
+// cv finaliza
+
+
+
+// mediaQueries
+
+@media (max-width: 600px)
+    .redes
+        top: 50%
+    
