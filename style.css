@@ -34,9 +34,52 @@
   line-height: 0.7;
 }
 
+.redes {
+  background-color: #313940;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 25%;
+  left: 3%;
+  font-size: 40px;
+}
+.redes a {
+  color: #BFB3A8;
+}
+
 footer {
   background-color: #313940;
-  height: 50px;
   color: #BFB3A8;
+}
+footer a {
+  color: #BFB3A8;
+}
+
+.footer-logo {
+  font-family: "Bebas Neue", sans-serif;
+  color: #BFB3A8;
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo .x1 {
+  font-size: 150px;
+}
+.footer-logo .x2 {
+  font-size: 75px;
+  line-height: 0.1;
+}
+
+.footernav {
+  color: #BFB3A8;
+  padding: 20px;
+}
+
+.footer-contacto {
+  padding: 20px;
+  color: #BFB3A8;
+}
+
+.copyright {
   text-align: center;
+  color: #BFB3A8;
 }/*# sourceMappingURL=style.css.map */
