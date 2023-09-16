@@ -413,6 +413,25 @@ footer a {
   text-transform: capitalize;
 }
 
+.mapa {
+  width: 100vw;
+  height: 400px;
+}
+
+.container {
+  font-family: "Bebas Neue", sans-serif;
+  color: #BFB3A8;
+}
+.container .der {
+  padding-top: 10%;
+}
+.container h3 {
+  font-size: 50px;
+}
+.container .izq label {
+  font-size: 30px;
+}
+
 @media (max-width: 600px) {
   .redes {
     top: 50%;
