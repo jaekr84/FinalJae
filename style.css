@@ -40,20 +40,21 @@
   line-height: 0.8;
   background-color: #313940;
 }
-.sector-1 .slogan p {
-  font-size: 20px;
-  width: 700px;
-  justify-content: center;
+
+.slogan {
+  padding-left: 250px;
+  padding-right: 250px;
 }
-.sector-1 .calltext {
+
+.calltext {
   font-size: 30px;
 }
 
 .redes {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
-  top: 20%;
+  top: 30%;
   font-size: 40px;
 }
 .redes a {
@@ -353,6 +354,63 @@ footer a {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+}
+
+.trabajos-body {
+  background-color: #313940;
+}
+
+.trabajos-titulo {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+.trabajos-titulo h1 {
+  text-align: center;
+  font-size: 13.5vw;
+  line-height: 0.9;
+  color: #8C6F56;
+}
+.trabajos-titulo p {
+  text-align: center;
+  font-size: 3vw;
+  line-height: 0.2;
+  color: #BFB3A8;
+}
+
+.gal {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+.gal img {
+  width: 120%;
+  height: 120%;
+}
+
+.servicios-texto {
+  color: #8C6F56;
+}
+
+#nav-tab a {
+  color: #BFB3A8;
+}
+
+.card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card .btn {
+  background-color: #25336F;
+}
+.card .btn a {
+  text-decoration: none;
+  color: #BFB3A8;
+}
+.card .card-body {
+  background-color: #313940;
+  color: #BFB3A8;
+  text-transform: capitalize;
 }
 
 @media (max-width: 600px) {
