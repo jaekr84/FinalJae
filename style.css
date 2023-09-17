@@ -15,6 +15,12 @@
   font-size: 30px;
 }
 
+.footer-nav-btn:hover {
+  text-decoration: underline;
+  color: #BFB3A8;
+  transition: 1s;
+}
+
 .ani1 {
   animation-name: ani1;
   animation-duration: 1s;
@@ -96,6 +102,13 @@
 }
 .redes a {
   color: #8C6F56;
+}
+
+.btn-redes:hover {
+  color: #BFB3A8;
+  transform: scale(1.2);
+  text-shadow: 2px 2px 5px white;
+  transition: 0.5s;
 }
 
 footer {

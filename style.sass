@@ -1,11 +1,11 @@
-* 
+*
     margin: 0
     padding: 0
 
 $color1: #25336F
-$color2: #03243F    
+$color2: #03243F
 $color3: #313940
-$color4: #8C6F56 
+$color4: #8C6F56
 $color5: #BFB3A8
 // index inicia
 .navbar
@@ -14,8 +14,15 @@ $color5: #BFB3A8
         color: $color5
     .navbar-toggler
         border: none
-        text-decoration: none    
+        text-decoration: none
         font-size: 30px
+// hover undelrine navbar
+.footer-nav-btn:hover
+    text-decoration: underline
+    color: $color5
+    transition: 1s
+
+
 .ani1
     animation-name: ani1
     animation-duration: 1s
@@ -60,7 +67,7 @@ $color5: #BFB3A8
         font-size: 90px
         line-height: 0.8
         background-color: $color3
-        
+
 .slogan
     padding-left: 250px
     padding-right: 250px
@@ -68,7 +75,6 @@ $color5: #BFB3A8
 .calltext
     font-size: 30px
 
-    
 .redes
     position: fixed
     display: flex
@@ -84,13 +90,20 @@ $color5: #BFB3A8
     animation-fill-mode: none
     a
         color: $color4
+.btn-redes
 
+// hover redes
+.btn-redes:hover
+    color: $color5
+    transform: scale(1.2)
+    text-shadow: 2px 2px 5px white      
+    transition: .5s
 
 footer
     background-color: $color3
     color: $color5
     a
-        color: $color5  
+        color: $color5
 
 .footer-logo
     font-family: 'Bebas Neue', sans-serif
@@ -101,9 +114,9 @@ footer
         font-size: 150px
     .x2
         font-size: 75px
-        line-height: 0.1 
+        line-height: 0.1
 
-.footernav        
+.footernav
     color: $color5
     padding: 20px
 
@@ -115,37 +128,35 @@ footer
     text-align: center
     color: $color5
     // animaciones inicia
-@keyframes ani1 
+@keyframes ani1
     0%
         transform: translateY(-100px)
         opacity: 0
     100%
         transform: translateY(0)
-        opacity: 1      
+        opacity: 1
 @keyframes ani2
     0%
         transform: translateX(-100px)
         opacity: 0
     100%
         transform: translateX(0)
-        opacity: 1      
-@keyframes ani3 
+        opacity: 1
+@keyframes ani3
     0%
         transform: translateX(1000px)
         opacity: 0
     100%
         transform: translateX(0)
-        opacity: 1      
+        opacity: 1
 @keyframes ani4
     0%
         transform: translateY(1000px)
         opacity: 0
     100%
         transform: translateY(0)
-        opacity: 1      
+        opacity: 1
     // animaciones finaliza
-
-
 
 // index finaliza
 
@@ -264,7 +275,7 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2   
+            line-height: 1.2
     .item10
         display: flex
         flex-direction: column
@@ -277,7 +288,7 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2   
+            line-height: 1.2
     .item11
         display: flex
         flex-direction: column
@@ -286,7 +297,7 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2   
+            line-height: 1.2
     .item12
         display: flex
         flex-direction: column
@@ -364,7 +375,6 @@ footer
 .trabajos-body
     background-color: $color3
 
-    
 .trabajos-titulo
     text-align: center
     font-family: 'Bebas Neue', sans-serif
@@ -387,7 +397,7 @@ footer
     img
         width: 120%
         height: 120%
-    
+
 // trabajos finaliza
 
 // servicios inicia
@@ -429,7 +439,7 @@ footer
         background-color: $color4
         border: none
     .form-check-input
-        margin: 11px1    
+        margin: 11px1
     .izq
         label
             font-size: 25px
