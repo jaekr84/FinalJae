@@ -2,7 +2,6 @@
     margin: 0
     padding: 0
 
-
 $color1: #25336F
 $color2: #03243F    
 $color3: #313940
@@ -17,7 +16,30 @@ $color5: #BFB3A8
         border: none
         text-decoration: none    
         font-size: 30px
-
+.ani1
+    animation-name: ani1
+    animation-duration: 1s
+    animation-timing-function: linear
+    animation-delay: 0
+    animation-iteration-count: 1
+    animation-direction: normal
+    animation-fill-mode: none
+.ani2
+    animation-name: ani2
+    animation-duration: 1s
+    animation-timing-function: linear
+    animation-delay: 0
+    animation-iteration-count: 1
+    animation-direction: normal
+    animation-fill-mode: none
+.ani3
+    animation-name: ani3
+    animation-duration: 1s
+    animation-timing-function: linear
+    animation-delay: 0
+    animation-iteration-count: 1
+    animation-direction: normal
+    animation-fill-mode: none
 .jae
     color: $color2
 
@@ -53,6 +75,13 @@ $color5: #BFB3A8
     flex-direction: column
     top: 30%
     font-size: 40px
+    animation-name: ani1
+    animation-duration: 1s
+    animation-timing-function: linear
+    animation-delay: 0
+    animation-iteration-count: 1
+    animation-direction: normal
+    animation-fill-mode: none
     a
         color: $color4
 
@@ -85,12 +114,44 @@ footer
 .copyright
     text-align: center
     color: $color5
+    // animaciones inicia
+@keyframes ani1 
+    0%
+        transform: translateY(-100px)
+        opacity: 0
+    100%
+        transform: translateY(0)
+        opacity: 1      
+@keyframes ani2
+    0%
+        transform: translateX(-100px)
+        opacity: 0
+    100%
+        transform: translateX(0)
+        opacity: 1      
+@keyframes ani3 
+    0%
+        transform: translateX(1000px)
+        opacity: 0
+    100%
+        transform: translateX(0)
+        opacity: 1      
+@keyframes ani4
+    0%
+        transform: translateY(1000px)
+        opacity: 0
+    100%
+        transform: translateY(0)
+        opacity: 1      
+    // animaciones finaliza
+
+
+
 // index finaliza
 
 // sobre mi inicia
 .box0
     background-color: $color3
-    // font-family: 'Bebas Neue', sans-serif
     font-family: 'Source Code Pro', monospace
 .box1
     background-color: $color3
@@ -357,17 +418,24 @@ footer
     width: 100vw
     height: 400px
 
-.container
+.container-main
     font-family: 'Bebas Neue', sans-serif
     color: $color5
     .der
         padding-top: 10%
     h3
         font-size: 50px
-
+    .btn
+        background-color: $color4
+        border: none
+    .form-check-input
+        margin: 11px1    
     .izq
         label
-            font-size: 30px
+            font-size: 25px
+        .form-check-label
+            font-size: 15px
+
 // contacto finaliza
 // certificados inicia
 .certificado-box
