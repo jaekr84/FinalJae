@@ -432,6 +432,26 @@ footer a {
   font-size: 30px;
 }
 
+.certificado-box .card {
+  background-color: #BFB3A8;
+  padding: 5px;
+}
+.certificado-box .card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.certificado-box .card .card-body {
+  background-color: #BFB3A8;
+  color: #313940;
+}
+
+.list-group li {
+  background-color: #BFB3A8;
+}
+.list-group .btn {
+  color: #BFB3A8;
+}
+
 @media (max-width: 600px) {
   .redes {
     top: 50%;
