@@ -486,14 +486,8 @@ footer a {
   align-items: center;
 }
 .box1 .item16 a {
-  text-decoration: none;
-  color: #BFB3A8;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 30px;
+  text-shadow: 2px 2px 10px white;
 }
 
 .trabajos-body {
@@ -542,6 +536,8 @@ footer a {
 }
 .card .btn {
   background-color: #25336F;
+  margin: 5px;
+  border: none;
 }
 .card .btn a {
   text-decoration: none;
@@ -572,14 +568,16 @@ footer a {
   background-color: #8C6F56;
   border: none;
 }
-.container-main .form-check-input {
-  margin: 11px1;
-}
 .container-main .izq label {
   font-size: 25px;
 }
-.container-main .izq .form-check-label {
+.container-main .izq .form-check {
+  display: flex;
+  justify-content: center;
+}
+.container-main .izq .form-check .form-check-input {
   font-size: 15px;
+  margin: 10px;
 }
 
 .certificado-box .card {
