@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.html {
+  width: 100vw;
+}
+
 .navbar {
   background-color: #313940;
 }
@@ -110,19 +114,20 @@
   font-family: "Bebas Neue", sans-serif;
   background-color: #313940;
   color: #BFB3A8;
+  justify-content: center;
 }
 .sector-1 h1 {
-  font-size: 20rem;
+  font-size: 20em;
   line-height: 0.8;
   padding-top: 80px;
   width: 100%;
 }
 .sector-1 h2 {
-  font-size: 270px;
+  font-size: 15em;
   line-height: 0.8;
 }
 .sector-1 h3 {
-  font-size: 90px;
+  font-size: 8em;
   line-height: 0.8;
   background-color: #313940;
 }
@@ -604,5 +609,19 @@ footer a {
 @media (max-width: 600px) {
   .redes {
     top: 50%;
+  }
+  .slogan {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .sector-1 h1 {
+    font-size: 15em;
+    line-height: 0.8;
+    padding-top: 80px;
+    width: 100%;
+  }
+  .sector-1 h3 {
+    font-size: 5em;
   }
 }/*# sourceMappingURL=style.css.map */
