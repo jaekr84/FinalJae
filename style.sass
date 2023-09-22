@@ -1,6 +1,8 @@
 *
     margin: 0
     padding: 0
+// ancho minimo
+min-width: 300px
 
 $color1: #25336F
 $color2: #03243F
@@ -8,8 +10,6 @@ $color3: #313940
 $color4: #8C6F56
 $color5: #BFB3A8
 // index inicia
-.html
-    width: 100vw
 
 .navbar
     background-color: $color3
@@ -19,11 +19,35 @@ $color5: #BFB3A8
         border: none
         text-decoration: none
         font-size: 30px
-// hover undelrine navbar
-.footer-nav-btn:hover
-    text-decoration: underline
+
+
+.sector-1
+    text-align: center
+    font-family: 'Bebas Neue', sans-serif
+    background-color: $color3
     color: $color5
-    transition: 1s
+    justify-content: center
+    h1
+        font-size: 200px
+        line-height: 0.8
+        padding-top: 80px
+    h2
+        font-size: 150px
+        line-height: 0.8
+    h3
+        font-size: 80px
+        line-height: 0.8
+
+
+.slogan
+    padding-left: 150px
+    padding-right: 150px
+    text-align: center
+
+
+.calltext
+    font-size: 30px
+
 
 .ani1
     animation-name: ani1
@@ -81,7 +105,6 @@ $color5: #BFB3A8
         animation-iteration-count: infinite
         animation-direction: alternate
         animation-fill-mode: none
-        animation
     .x2
         animation: neon
         animation-duration: 1s
@@ -98,32 +121,6 @@ $color5: #BFB3A8
     100%
         text-shadow: 2px 3px 10px blue
 
-.sector-1
-    text-align: center
-    font-family: 'Bebas Neue', sans-serif
-    background-color: $color3
-    color: $color5
-    justify-content: center
-    h1
-        font-size: 20em
-        line-height: 0.8
-        padding-top: 80px
-        width: 100%
-    h2
-        font-size: 15em
-        line-height: 0.8
-    h3
-        font-size: 8em
-        line-height: 0.8
-        background-color: $color3
-
-.slogan
-    padding-left: 150px
-    padding-right: 150px
-    text-align: center
-
-.calltext
-    font-size: 30px
 
 .redes
     position: fixed
@@ -173,6 +170,13 @@ footer
     padding: 20px
     color: $color5
 
+// hover undelrine navbar
+.footer-nav-btn:hover
+    text-decoration: underline
+    color: $color5
+    transition: 1s
+
+
 .copyright
     text-align: center
     color: $color5
@@ -213,22 +217,26 @@ footer
 .box0
     background-color: $color3
     font-family: 'Source Code Pro', monospace
-.box1
     background-color: $color3
     padding: 50px
     color: $color5
 
     .item
-        height: 200px
+        height: 250px
+        // flex-grow: 1
         border: 1px solid $color2
         border-radius: 15px
         box-shadow: 3px 3px 5px $color2
+        word-wrap: break-word
+
     .item1
         overflow: hidden
+        min-height: 250px
         img
             width: 100%
             height: 100%
             border-image: 15px
+            object-fit: cover
 
     .item2
         display: flex
@@ -237,20 +245,18 @@ footer
         align-items: center
         h5
             text-align: center
-            font-size: 70px
-            line-height: 0.9
+            font-size: 50px
         h6
-            font-size: 60px
-            line-height: 0.9
+            font-size: 50px
     .item3
         display: flex
         justify-content: center
         align-items: center
         ul
+            word-wrap: break-word
             font-size: 30px
             li
                 font-size: 20px
-                line-height: 0.9
     .item4
         display: flex
         flex-direction: column
@@ -259,7 +265,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item5
         display: flex
         flex-direction: column
@@ -282,10 +287,9 @@ footer
             padding: 15px
             text-align: center
             font-size: 30px
-        p
+        p1
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item7
         display: flex
         flex-direction: column
@@ -298,7 +302,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item8
         display: flex
         flex-direction: column
@@ -311,7 +314,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item9
         display: flex
         flex-direction: column
@@ -324,7 +326,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item10
         display: flex
         flex-direction: column
@@ -337,7 +338,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item11
         display: flex
         flex-direction: column
@@ -346,7 +346,6 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
     .item12
         display: flex
         flex-direction: column
@@ -404,7 +403,7 @@ footer
         p
             text-align: center
             padding: 10px
-            line-height: 1.2
+            // line-height: 1.2
     .item16
         display: flex
         justify-content: center
@@ -522,11 +521,17 @@ footer
         padding-right: 20px
         text-align: center
 
-    .sector-1
-        h1
-            font-size: 15em
-            line-height: 0.8
-            padding-top: 80px
-            width: 100%
-        h3
-            font-size: 5em
+@media screen and (max-width: 990px)
+    
+    .item
+        height: 650px
+        border: 1px solid $color2
+        border-radius: 15px
+        box-shadow: 3px 3px 5px $color2
+        word-wrap: break-word
+        h6
+            font-size: 10px
+        p
+            font-size: 12px
+        
+
